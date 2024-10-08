@@ -609,18 +609,17 @@ section .container6 ul {
 =======
   box-shadow: -1px 0px 10px black;
 }
-.aboutus .container6 {
-  text-align: center;
-  display: flex;
-}
-.aboutus .container6 ul {
-  text-decoration: none;
-}
-.aboutus .container6 ul li {
-  list-style: none;
-}
 .aboutus .space {
   padding-top: 30px;
+}
+.aboutus .near {
+  display: flex;
+  box-shadow: 1px 0px 10px;
+  gap: 50px;
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  align-items: center;
 }
 
 <<<<<<< HEAD
