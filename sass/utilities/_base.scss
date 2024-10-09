@@ -1,0 +1,26 @@
+@use "./variables" as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  // color: $black;
+}
+
+body {
+  padding: 50px ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../../images/home\ page.jpg);
+}
+
+
+.content {
+  display: flex;
+}
