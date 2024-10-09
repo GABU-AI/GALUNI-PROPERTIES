@@ -1,0 +1,163 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .stay-connected,
+  .quick-links,
+  .sub {
+    flex: 1;
+    margin-bottom: 2rem;
+  }
+
+  .stay-connected {
+    img {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .intence-icons {
+      a {
+        margin-right: 10px;
+
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+
+  .quick-links {
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 1rem;
+          
+
+          &:hover {
+            color: #ddd;
+          }
+        }
+      }
+    }
+  }
+
+  .sub {
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input[type="email"] {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: none;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #000;
+      }
+
+      button {
+        padding: 0.5rem 1rem;
+        border: none;
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+        
+
+        &:hover {
+          background-color: #ddd;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+
+    .stay-connected,
+    .quick-links,
+    .sub {
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .intence-icons {
+      a {
+        margin-right: 5px;
+
+        img {
+          width: 40px;
+        }
+      }
+    }
+
+    .quick-links ul {
+      li {
+        a {
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .sub form {
+      input[type="email"],
+      button {
+        width: 100%;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .stay-connected img {
+      width: 80px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    .quick-links ul {
+      li {
+        a {
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .sub form {
+      input[type="email"],
+      button {
+        padding: 0.4rem 0.8rem;
+      }
+    }
+  }
+}

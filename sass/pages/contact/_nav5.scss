@@ -1,0 +1,154 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+header {
+  nav {
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+
+      .envelope {
+        h2 {
+          font-size: 1.2rem;
+          margin: 0;
+        }
+      }
+
+      > div {
+        display: flex;
+        align-items: center;
+
+        h2 {
+          font-size: 1rem;
+          margin-right: 1.5rem;
+        }
+
+        i {
+          font-size: 1.5rem;
+          margin-right: 1rem;
+          color: #fff;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: #007bff;
+          }
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+
+      .logo {
+        img {
+          width: 90px;
+        }
+      }
+
+      .item {
+        ul {
+          list-style: none;
+          display: flex;
+          margin: 0;
+          padding: 0;
+
+          li {
+            margin-left: 2rem;
+
+            a {
+              text-decoration: none;
+              color: #000;
+              font-size: 1.1rem;
+              text-transform: capitalize;
+              transition: color 0.3s ease;
+
+              &:hover {
+                color: #007bff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    nav {
+      .top {
+        flex-direction: column;
+        text-align: center;
+
+        .envelope {
+          margin-bottom: 1rem;
+        }
+
+        > div {
+          justify-content: center;
+
+          h2 {
+            margin-bottom: 1rem;
+          }
+
+          i {
+            font-size: 1.2rem;
+            margin-right: 0.5rem;
+          }
+        }
+      }
+
+      .bottom {
+        flex-direction: column;
+        text-align: center;
+
+        .item {
+          ul {
+            flex-direction: column;
+
+            li {
+              margin-bottom: 1rem;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    nav {
+      .top {
+        padding: 1rem;
+
+        h2 {
+          font-size: 0.9rem;
+        }
+
+        i {
+          font-size: 1rem;
+        }
+      }
+
+      .bottom {
+        padding: 1rem;
+
+        .logo {
+          img {
+            width: 70px;
+          }
+        }
+
+        .item ul li a {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
