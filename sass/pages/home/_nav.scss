@@ -10,13 +10,6 @@ header {
       color: #fff;
       padding: 1rem 2rem;
 
-      .envelope {
-        h2 {
-          font-size: 1.2rem;
-          margin: 0;
-        }
-      }
-
       > div {
         display: flex;
         align-items: center;
@@ -26,11 +19,10 @@ header {
           margin-right: 1.5rem;
         }
 
-        i {
+        .fa-brands{
           font-size: 1.5rem;
           margin-right: 1rem;
           color: #fff;
-          
 
           &:hover {
             color: #f4a352;
@@ -45,7 +37,7 @@ header {
       align-items: center;
       padding: 1rem 2rem;
       background-color: #fff;
-      border-bottom: 2px solid #000;
+      border-bottom: 2px solid #2596be;
 
       .logo {
         img {
@@ -65,12 +57,12 @@ header {
 
             a {
               text-decoration: none;
-              color: #000;
+              // color: #;
               font-size: 1.1rem;
               text-transform: capitalize;
 
               &:hover {
-                color: #007bff;
+                color: #f4a352;
               }
             }
           }
@@ -121,33 +113,33 @@ header {
     }
   }
 
-  @media (max-width: 480px) {
-    nav {
-      .top {
-        padding: 1rem;
+  // @media (max-width: 480px) {
+  //   nav {
+  //     .top {
+  //       padding: 1rem;
 
-        h2 {
-          font-size: 0.9rem;
-        }
+  //       h2 {
+  //         font-size: 0.9rem;
+  //       }
 
-        i {
-          font-size: 1rem;
-        }
-      }
+  //       i {
+  //         font-size: 1rem;
+  //       }
+  //     }
 
-      .bottom {
-        padding: 1rem;
+  //     .bottom {
+  //       padding: 1rem;
 
-        .logo {
-          img {
-            width: 70px;
-          }
-        }
+  //       .logo {
+  //         img {
+  //           width: 70px;
+  //         }
+  //       }
 
-        .item ul li a {
-          font-size: 1rem;
-        }
-      }
-    }
-  }
+  //       .item ul li a {
+  //         font-size: 1rem;
+  //       }
+  //     }
+  //   }
+  // }
 }

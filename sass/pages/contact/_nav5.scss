@@ -1,12 +1,13 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
 header {
+  margin-bottom: 2%;
   nav {
     .top {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #000;
+      background-color: #2596be;
       color: #fff;
       padding: 1rem 2rem;
 
@@ -122,33 +123,33 @@ header {
     }
   }
 
-  @media (max-width: 480px) {
-    nav {
-      .top {
-        padding: 1rem;
+//   @media (max-width: 480px) {
+//     nav {
+//       .top {
+//         padding: 1rem;
 
-        h2 {
-          font-size: 0.9rem;
-        }
+//         h2 {
+//           font-size: 0.9rem;
+//         }
 
-        i {
-          font-size: 1rem;
-        }
-      }
+//         i {
+//           font-size: 1rem;
+//         }
+//       }
 
-      .bottom {
-        padding: 1rem;
+//       .bottom {
+//         padding: 1rem;
 
-        .logo {
-          img {
-            width: 70px;
-          }
-        }
+//         .logo {
+//           img {
+//             width: 70px;
+//           }
+//         }
 
-        .item ul li a {
-          font-size: 1rem;
-        }
-      }
-    }
-  }
+//         .item ul li a {
+//           font-size: 1rem;
+//         }
+//       }
+//     }
+//   }
 }

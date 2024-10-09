@@ -7,6 +7,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 2%;
 
   .stay-connected,
   .quick-links,
@@ -49,10 +50,6 @@ footer {
           color: #fff;
           text-decoration: none;
           font-size: 1rem;
-
-          &:hover {
-            color: #f4a352;
-          }
         }
       }
     }
@@ -77,80 +74,81 @@ footer {
         color: #2596be;
       }
 
-      button {
-        padding: 0.5rem 1rem;
-        border: none;
-        background-color: #fff;
-        color: #2596be;
-        cursor: pointer;
-
-        &:hover {
-          background-color: #f4a352;
-        }
-      }
-    }
-  }
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    text-align: center;
-
-    .stay-connected,
-    .quick-links,
-    .sub {
-      margin-bottom: 1.5rem;
-      text-align: center;
-    }
-
-    .intence-icons {
-      a {
-        margin-right: 5px;
-
-        img {
-          width: 40px;
-        }
-      }
-    }
-
-    .quick-links ul {
-      li {
-        a {
-          font-size: 0.9rem;
-        }
-      }
-    }
-
-    .sub form {
-      input[type="email"],
-      button {
-        width: 100%;
-        font-size: 1rem;
-      }
-    }
-  }
-
-  @media (max-width: 480px) {
-    .stay-connected img {
-      width: 80px;
-    }
-
-    h3 {
-      font-size: 1.2rem;
-    }
-
-    .quick-links ul {
-      li {
-        a {
-          font-size: 0.8rem;
-        }
-      }
-    }
-
-    .sub form {
-      input[type="email"],
-      button {
-        padding: 0.4rem 0.8rem;
-      }
+      // button {
+      //   padding: 0.5rem 1rem;
+      //   border: none;
+      //   // background-color: #fff;
+      //   color: #2596be;
+      //   cursor: pointer;
+      // }
     }
   }
 }
+#submit {
+  &:hover {
+    background-color: #f4a352;
+  }
+}
+
+@media (max-width: 768px) {
+  // flex-direction: column;
+  // text-align: center;
+
+  .stay-connected,
+  .quick-links,
+  .sub {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .intence-icons {
+    a {
+      margin-right: 5px;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+  .quick-links ul {
+    li {
+      a {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .sub form {
+    input[type="email"],
+    button {
+      width: 100%;
+      font-size: 1rem;
+    }
+  }
+}
+
+// @media (max-width: 480px) {
+//   .stay-connected img {
+//     width: 80px;
+//   }
+
+//   h3 {
+//     font-size: 1.2rem;
+//   }
+
+//   .quick-links ul {
+//     li {
+//       a {
+//         font-size: 0.8rem;
+//       }
+//     }
+//   }
+
+//   .sub form {
+//     input[type="email"],
+//     button {
+//       padding: 0.4rem 0.8rem;
+//     }
+//   }
+// }

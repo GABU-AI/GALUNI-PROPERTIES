@@ -5,6 +5,7 @@ section {
   background-color: #f7f7f7;
   max-width: 800px;
   margin: 0 auto;
+  margin-top: 2%;
 
   border-radius: 10px;
   h1 {
@@ -91,11 +92,11 @@ section {
     }
   }
 
-  @media (max-width: 599px) {
-    .text {
-      form {
-        min-width: 100%;
-      }
-    }
-  }
+//   @media (max-width: 599px) {
+//     .text {
+//       form {
+//         min-width: 100%;
+//       }
+//     }
+//   }
 }
