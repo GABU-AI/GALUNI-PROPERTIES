@@ -10,7 +10,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #2596be;
 }
 
 body {
@@ -33,10 +32,6 @@ header nav .top {
   color: #fff;
   padding: 1rem 2rem;
 }
-header nav .top .envelope h2 {
-  font-size: 1.2rem;
-  margin: 0;
-}
 header nav .top > div {
   display: flex;
   align-items: center;
@@ -45,12 +40,12 @@ header nav .top > div h2 {
   font-size: 1rem;
   margin-right: 1.5rem;
 }
-header nav .top > div i {
+header nav .top > div .fa-brands {
   font-size: 1.5rem;
   margin-right: 1rem;
   color: #fff;
 }
-header nav .top > div i:hover {
+header nav .top > div .fa-brands:hover {
   color: #f4a352;
 }
 header nav .bottom {
@@ -59,7 +54,7 @@ header nav .bottom {
   align-items: center;
   padding: 1rem 2rem;
   background-color: #fff;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #2596be;
 }
 header nav .bottom .logo img {
   width: 90px;
@@ -75,12 +70,11 @@ header nav .bottom .item ul li {
 }
 header nav .bottom .item ul li a {
   text-decoration: none;
-  color: #000;
   font-size: 1.1rem;
   text-transform: capitalize;
 }
 header nav .bottom .item ul li a:hover {
-  color: #007bff;
+  color: #f4a352;
 }
 @media (max-width: 768px) {
   header nav .top {
@@ -112,37 +106,20 @@ header nav .bottom .item ul li a:hover {
     margin-left: 0;
   }
 }
-@media (max-width: 480px) {
-  header nav .top {
-    padding: 1rem;
-  }
-  header nav .top h2 {
-    font-size: 0.9rem;
-  }
-  header nav .top i {
-    font-size: 1rem;
-  }
-  header nav .bottom {
-    padding: 1rem;
-  }
-  header nav .bottom .logo img {
-    width: 70px;
-  }
-  header nav .bottom .item ul li a {
-    font-size: 1rem;
-  }
-}
 
 section {
   padding: 2rem;
   background-color: #2596be;
   color: #000;
   text-align: center;
+  margin: 10%;
 }
 section h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 section h1 span {
   color: #000;
@@ -166,7 +143,7 @@ section > div > div {
   text-align: center;
 }
 section > div > div:hover {
-  box-shadow: 0 4px 10px #000;
+  box-shadow: 0 4px 10px #2596be;
 }
 section > div > div img {
   width: 100%;
@@ -186,11 +163,9 @@ section > div > div p {
 section > div > div p span {
   color: #555;
 }
-@media (max-width: 768px) {
-  section > div {
-    flex-direction: column;
-    align-items: center;
-  }
+section .index-section {
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 @media (max-width: 480px) {
   section {
@@ -220,6 +195,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 2%;
 }
 footer .stay-connected,
 footer .quick-links,
@@ -253,9 +229,6 @@ footer .quick-links h3 li a {
   text-decoration: none;
   font-size: 1rem;
 }
-footer .quick-links h3 li a:hover {
-  color: #f4a352;
-}
 footer .sub h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -272,63 +245,41 @@ footer .sub form input[type=email] {
   background-color: #fff;
   color: #2596be;
 }
-footer .sub form button {
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: #fff;
-  color: #2596be;
-  cursor: pointer;
-}
-footer .sub form button:hover {
+
+#submit:hover {
   background-color: #f4a352;
 }
+
 @media (max-width: 768px) {
-  footer {
-    flex-direction: column;
-    text-align: center;
-  }
-  footer .stay-connected,
-  footer .quick-links,
-  footer .sub {
+  .stay-connected,
+  .quick-links,
+  .sub {
     margin-bottom: 1.5rem;
     text-align: center;
   }
-  footer .intence-icons a {
+  .intence-icons a {
     margin-right: 5px;
   }
-  footer .intence-icons a img {
+  .intence-icons a img {
     width: 40px;
   }
-  footer .quick-links ul li a {
+  .quick-links ul li a {
     font-size: 0.9rem;
   }
-  footer .sub form input[type=email],
-  footer .sub form button {
+  .sub form input[type=email],
+  .sub form button {
     width: 100%;
     font-size: 1rem;
   }
 }
-@media (max-width: 480px) {
-  footer .stay-connected img {
-    width: 80px;
-  }
-  footer h3 {
-    font-size: 1.2rem;
-  }
-  footer .quick-links ul li a {
-    font-size: 0.8rem;
-  }
-  footer .sub form input[type=email],
-  footer .sub form button {
-    padding: 0.4rem 0.8rem;
-  }
+header {
+  margin-bottom: 2%;
 }
-
 header nav .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
+  background-color: #2596be;
   color: #fff;
   padding: 1rem 2rem;
 }
@@ -413,26 +364,6 @@ header nav .bottom .item ul li a:hover {
     margin-left: 0;
   }
 }
-@media (max-width: 480px) {
-  header nav .top {
-    padding: 1rem;
-  }
-  header nav .top h2 {
-    font-size: 0.9rem;
-  }
-  header nav .top i {
-    font-size: 1rem;
-  }
-  header nav .bottom {
-    padding: 1rem;
-  }
-  header nav .bottom .logo img {
-    width: 70px;
-  }
-  header nav .bottom .item ul li a {
-    font-size: 1rem;
-  }
-}
 
 .section {
   display: flex;
@@ -450,6 +381,7 @@ section {
   background-color: #f7f7f7;
   max-width: 800px;
   margin: 0 auto;
+  margin-top: 2%;
   border-radius: 10px;
 }
 section h1 {
@@ -517,11 +449,6 @@ section .btn button:hover {
   }
   section .btn button {
     padding: 0.8rem 3rem;
-  }
-}
-@media (max-width: 599px) {
-  section .text form {
-    min-width: 100%;
   }
 }
 
