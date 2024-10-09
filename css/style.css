@@ -598,6 +598,7 @@ section1 .container6 ul {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 section {
   background-image: url("images/home page.jpg");
 >>>>>>> 76b032e (returned the code)
@@ -605,4 +606,20 @@ section {
 section1 {
   background-color: #F4f7fb;
 >>>>>>> bb9ca7e (returned the code)
+=======
+section1 .container7 {
+  display: flex;
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  align-items: center;
+  gap: 16px;
+}
+section1 .container7 .content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: -1px 0px 10px black;
+  background-color: #ddd;
+>>>>>>> 12e9572 (making changes to the new file i created)
 }
