@@ -5,10 +5,16 @@ section {
   .container5 {
     display: flex;
     gap: 50px;
-border-radius: 50px;
+    box-shadow: 50px;
     .images{
     border-radius: 4px;
     
+    }
+  }
+  .container6{
+    ul{
+        list-style:none;
+        text-decoration: none;
     }
   }
 }

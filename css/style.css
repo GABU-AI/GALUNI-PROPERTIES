@@ -570,9 +570,16 @@ footer .sub form button:hover {
 section .container5 {
   display: flex;
   gap: 50px;
-  border-radius: 50px;
+  box-shadow: 50px;
 }
 section .container5 .images {
   border-radius: 4px;
+<<<<<<< HEAD
 >>>>>>> 2df9382 (returned the code)
+=======
+}
+section .container6 ul {
+  list-style: none;
+  text-decoration: none;
+>>>>>>> 8ad70eb (returned the code)
 }
