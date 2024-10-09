@@ -2,7 +2,7 @@
 @use "../../utilities/variables" as *;
 
 .aboutus {
-    padding: ;
+    padding: 30px;
   .container5 {
     display: flex;
     gap: 50px;
@@ -16,8 +16,13 @@
     text-align: center;
     display: flex;
     ul{
+        text-decoration: none;
+        li{
         list-style: none;
-        
+        }
     }
+  }
+  .space{
+    padding-top: 30px;
   }
 }

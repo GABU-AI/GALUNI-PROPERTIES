@@ -588,7 +588,7 @@ ul li a {
 }
 
 .aboutus {
-  padding: 50px 0 50px 0;
+  padding: 30px;
 }
 .aboutus .container5 {
 >>>>>>> faf3f9e (returned the code)
@@ -614,7 +614,13 @@ section .container6 ul {
   display: flex;
 }
 .aboutus .container6 ul {
+  text-decoration: none;
+}
+.aboutus .container6 ul li {
   list-style: none;
+}
+.aboutus .space {
+  padding-top: 30px;
 }
 
 <<<<<<< HEAD
@@ -642,5 +648,11 @@ section1 .container7 .content {
   text-align: center;
   box-shadow: -1px 0px 10px black;
   background-color: #ddd;
+<<<<<<< HEAD
 >>>>>>> 12e9572 (making changes to the new file i created)
+=======
+}
+section1 .container7 .space1 {
+  padding-top: 30px;
+>>>>>>> c7d1409 (returned the code)
 }
