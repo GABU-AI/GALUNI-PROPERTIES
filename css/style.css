@@ -590,11 +590,16 @@ ul li a {
 .aboutus {
   padding: 30px;
 }
+<<<<<<< HEAD
 .aboutus .container5 {
 >>>>>>> faf3f9e (returned the code)
+=======
+.aboutus .container {
+>>>>>>> dd5182c (arranged the styling device)
   display: flex;
-  gap: 50px;
+  justify-content: center;
 }
+<<<<<<< HEAD
 .aboutus .container5 .images {
   border-radius: 4px;
 <<<<<<< HEAD
@@ -608,20 +613,50 @@ section .container6 ul {
 >>>>>>> 8ad70eb (returned the code)
 =======
   box-shadow: -1px 0px 10px black;
+=======
+.aboutus .container .container-content {
+  margin-left: 3em;
+  font-size: 1.5rem;
+  width: 40%;
+  line-height: 1.4rem;
+>>>>>>> dd5182c (arranged the styling device)
 }
-.aboutus .space {
-  padding-top: 30px;
+.aboutus .container .button {
+  padding: 1em 3em;
+  background-color: #2596be;
+  border: none;
+  color: white;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  margin-top: 2em;
 }
-.aboutus .near {
+.aboutus .btn6 {
+  padding: 1em 3em;
+  background-color: #2596be;
+  border: none;
+  color: white;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+}
+.aboutus .content {
+  margin-top: 2em;
+}
+.aboutus p {
+  margin-top: 2em;
+}
+.aboutus .container8 {
   display: flex;
-  box-shadow: 1px 0px 10px;
-  gap: 50px;
-  width: 1200px;
-  height: 300px;
-  margin: auto;
-  align-items: center;
+  justify-content: center;
+}
+.aboutus .history {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.aboutus .history .p {
+  text-align: center;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,21 +670,40 @@ section1 {
 =======
 section1 .container7 {
 =======
+=======
+.property .container10 {
+  display: flex;
+  justify-content: center;
+}
+.property .content10 {
+  margin-left: 3em;
+  font-size: 1.5rem;
+  width: 40%;
+  line-height: 1.4rem;
+}
+.property .content10 .h3 {
+  margin-top: 1em;
+}
+.property .content10 .meta {
+  margin-top: 1em;
+}
+.property .content10 .jpg {
+  padding-top: 100px;
+}
+>>>>>>> dd5182c (arranged the styling device)
 .property .container7 {
 >>>>>>> 91e9fdb (added some changes)
   display: flex;
-  width: 1200px;
-  height: 300px;
-  margin: auto;
-  align-items: center;
+  justify-content: center;
   gap: 16px;
-  margin-bottom: 10px;
+  margin-top: 2em;
 }
 .property .container7 .content {
   justify-content: center;
   align-items: center;
   text-align: center;
   box-shadow: -1px 0px 10px black;
+<<<<<<< HEAD
   background-color: #ddd;
 <<<<<<< HEAD
 >>>>>>> 12e9572 (making changes to the new file i created)
@@ -687,4 +741,9 @@ section1 .container7 {
     padding-top: 30px;
   }
 >>>>>>> 91e9fdb (added some changes)
+=======
+}
+.property .test {
+  padding-top: 10px;
+>>>>>>> dd5182c (arranged the styling device)
 }
