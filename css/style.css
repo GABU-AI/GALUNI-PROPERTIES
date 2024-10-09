@@ -10,23 +10,26 @@ ul {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #2596be;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+body {
+  padding: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../../images/home\ page.jpg);
 }
 
-.body-section {
-  background-image: im;
+.content {
+  display: flex;
 }
 
 header nav .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: #000;
+  background-image: #2596be;
   color: #fff;
   padding: 1rem 2rem;
 }
@@ -48,7 +51,7 @@ header nav .top > div i {
   color: #fff;
 }
 header nav .top > div i:hover {
-  color: #007bff;
+  color: #f4a352;
 }
 header nav .bottom {
   display: flex;
@@ -132,7 +135,7 @@ header nav .bottom .item ul li a:hover {
 
 section {
   padding: 2rem;
-  background-color: #000;
+  background-color: #2596be;
   color: #000;
   text-align: center;
 }
@@ -210,88 +213,8 @@ section > div > div p span {
   }
 }
 
-section {
-  padding: 2rem;
-  background-color: #f7f7f7;
-  max-width: 800px;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-section h1 {
-  text-align: center;
-  font-size: 2rem;
-  color: #000;
-  margin-bottom: 2rem;
-}
-section .text form {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1.5rem;
-}
-section .text form h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-  color: #000;
-}
-section .text form input,
-section .text form textarea {
-  padding: 0.8rem;
-  border: 1px solid #000;
-  border-radius: 5px;
-  font-size: 1rem;
-  width: 100%;
-  box-sizing: border-box;
-}
-section .text form input:focus,
-section .text form textarea:focus {
-  border-color: #007bff;
-  outline: none;
-}
-section .text form textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-section .btn {
-  text-align: center;
-}
-section .btn button {
-  background-color: #007bff;
-  color: white;
-  padding: 0.8rem 2rem;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-section .btn button:hover {
-  background-color: #0056b3;
-}
-@media (min-width: 600px) {
-  section .text {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  section .text form {
-    flex: 1;
-    min-width: calc(50% - 1rem);
-  }
-  section .text form:last-of-type {
-    flex: 1 0 100%;
-  }
-  section .btn button {
-    padding: 0.8rem 3rem;
-  }
-}
-@media (max-width: 599px) {
-  section .text form {
-    min-width: 100%;
-  }
-}
-
 footer {
-  background-color: #000;
+  background-color: #2596be;
   color: #fff;
   padding: 2rem;
   display: flex;
@@ -319,23 +242,19 @@ footer .stay-connected .intence-icons a img {
   width: 50px;
 }
 footer .quick-links h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-footer .quick-links ul {
   list-style: none;
   padding: 0;
 }
-footer .quick-links ul li {
+footer .quick-links h3 li {
   margin-bottom: 0.5rem;
 }
-footer .quick-links ul li a {
+footer .quick-links h3 li a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
 }
-footer .quick-links ul li a:hover {
-  color: #ddd;
+footer .quick-links h3 li a:hover {
+  color: #f4a352;
 }
 footer .sub h3 {
   font-size: 1.5rem;
@@ -351,17 +270,17 @@ footer .sub form input[type=email] {
   border: none;
   border-radius: 4px;
   background-color: #fff;
-  color: #000;
+  color: #2596be;
 }
 footer .sub form button {
   padding: 0.5rem 1rem;
   border: none;
   background-color: #fff;
-  color: #000;
+  color: #2596be;
   cursor: pointer;
 }
 footer .sub form button:hover {
-  background-color: #ddd;
+  background-color: #f4a352;
 }
 @media (max-width: 768px) {
   footer {
@@ -607,7 +526,7 @@ section .btn button:hover {
 }
 
 footer {
-  background-color: #000;
+  background-color: #2596be;
   color: #fff;
   padding: 2rem;
   display: flex;
@@ -667,17 +586,17 @@ footer .sub form input[type=email] {
   border: none;
   border-radius: 4px;
   background-color: #fff;
-  color: #000;
+  color: #2596be;
 }
 footer .sub form button {
   padding: 0.5rem 1rem;
   border: none;
   background-color: #fff;
-  color: #000;
+  color: #2596be;
   cursor: pointer;
 }
 footer .sub form button:hover {
-  background-color: #ddd;
+  background-color: #b69;
 }
 @media (max-width: 768px) {
   footer {

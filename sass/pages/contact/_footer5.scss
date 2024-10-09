@@ -1,7 +1,7 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
 footer {
-  background-color: #000;
+  background-color:#2596be;
   color: #fff;
   padding: 2rem;
   display: flex;
@@ -80,19 +80,19 @@ footer {
         border: none;
         border-radius: 4px;
         background-color: #fff;
-        color: #000;
+        color: #2596be;
       }
 
       button {
         padding: 0.5rem 1rem;
         border: none;
         background-color: #fff;
-        color: #000;
+        color: #2596be;
         cursor: pointer;
         
 
         &:hover {
-          background-color: #ddd;
+          background-color: #b69;
         }
       }
     }
