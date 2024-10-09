@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @use "../utilities/base";
 @use "../sass/pages/home/main";
 @use "../sass/pages/contact/main5";
@@ -5,3 +6,9 @@
 @use "../utilities/variables";
 @use "../sass/pages/home1/about2";
 
+=======
+@use "./utilities/mixins";
+@use "./utilities/variables";
+@use "../sass/pages/home1/about2";
+@use "../sass/pages/home1/move";
+>>>>>>> 76b032e (returned the code)

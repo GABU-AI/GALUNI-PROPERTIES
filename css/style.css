@@ -575,6 +575,7 @@ section .container5 {
 section .container5 .images {
   border-radius: 4px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2df9382 (returned the code)
 =======
 }
@@ -582,4 +583,18 @@ section .container6 ul {
   list-style: none;
   text-decoration: none;
 >>>>>>> 8ad70eb (returned the code)
+=======
+  box-shadow: -1px 0px 10px black;
+}
+section .container6 {
+  text-align: center;
+  display: flex;
+}
+section .container6 ul {
+  list-style: none;
+}
+
+section {
+  background-image: url("images/home page.jpg");
+>>>>>>> 76b032e (returned the code)
 }

@@ -8,13 +8,16 @@ section {
     box-shadow: 50px;
     .images{
     border-radius: 4px;
+    box-shadow: -1px 0px 10px black;
     
     }
   }
   .container6{
+    text-align: center;
+    display: flex;
     ul{
-        list-style:none;
-        text-decoration: none;
+        list-style: none;
+        
     }
   }
 }
