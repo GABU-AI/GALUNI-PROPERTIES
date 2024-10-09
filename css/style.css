@@ -625,6 +625,7 @@ section .container6 ul {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 section {
   background-image: url("images/home page.jpg");
 >>>>>>> 76b032e (returned the code)
@@ -634,6 +635,9 @@ section1 {
 >>>>>>> bb9ca7e (returned the code)
 =======
 section1 .container7 {
+=======
+.property .container7 {
+>>>>>>> 91e9fdb (added some changes)
   display: flex;
   width: 1200px;
   height: 300px;
@@ -642,7 +646,7 @@ section1 .container7 {
   gap: 16px;
   margin-bottom: 10px;
 }
-section1 .container7 .content {
+.property .container7 .content {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -652,7 +656,36 @@ section1 .container7 .content {
 >>>>>>> 12e9572 (making changes to the new file i created)
 =======
 }
-section1 .container7 .space1 {
+.property .container7 .space {
   padding-top: 30px;
+<<<<<<< HEAD
 >>>>>>> c7d1409 (returned the code)
+=======
+}
+
+@media screen and (max-width: 600px) {
+  .property {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5 1fr;
+  }
+  .container7 {
+    display: flex;
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+  }
+  .container7 .content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: -1px 0px 10px black;
+    background-color: #ddd;
+  }
+  .container7 .space {
+    padding-top: 30px;
+  }
+>>>>>>> 91e9fdb (added some changes)
 }
