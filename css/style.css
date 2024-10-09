@@ -802,5 +802,176 @@ section1 .container7 {
     flex-direction: column;
     gap: 8px;
   }
+<<<<<<< HEAD
 >>>>>>> ba71c03 (added new styles of responsiveness)
+=======
+}
+
+header nav .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: #2596be;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+header nav .top > div {
+  display: flex;
+  align-items: center;
+}
+header nav .top > div h2 {
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+header nav .top > div .fa-brands {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #fff;
+}
+header nav .top > div .fa-brands:hover {
+  color: #f4a352;
+}
+header nav .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 2px solid #2596be;
+}
+header nav .bottom .logo img {
+  width: 90px;
+}
+header nav .bottom .item ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header nav .bottom .item ul li {
+  margin-left: 2rem;
+}
+header nav .bottom .item ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+header nav .bottom .item ul li a:hover {
+  color: #f4a352;
+}
+@media (max-width: 768px) {
+  header nav .top {
+    flex-direction: column;
+    text-align: center;
+  }
+  header nav .top .envelope {
+    margin-bottom: 1rem;
+  }
+  header nav .top > div {
+    justify-content: center;
+  }
+  header nav .top > div h2 {
+    margin-bottom: 1rem;
+  }
+  header nav .top > div i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  header nav .bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  header nav .bottom .item ul {
+    flex-direction: column;
+  }
+  header nav .bottom .item ul li {
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+}
+
+footer {
+  background-color: #2596be;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+footer .stay-connected,
+footer .quick-links,
+footer .sub {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+footer .stay-connected img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+footer .stay-connected h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+footer .stay-connected .intence-icons a {
+  margin-right: 10px;
+}
+footer .stay-connected .intence-icons a img {
+  width: 50px;
+}
+footer .quick-links h3 {
+  list-style: none;
+  padding: 0;
+}
+footer .quick-links h3 li {
+  margin-bottom: 0.5rem;
+}
+footer .quick-links h3 li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+footer .sub h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+footer .sub form {
+  display: flex;
+  flex-direction: column;
+}
+footer .sub form input[type=email] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #2596be;
+}
+
+#submit:hover {
+  background-color: #f4a352;
+}
+
+@media (max-width: 768px) {
+  .stay-connected,
+  .quick-links,
+  .sub {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .intence-icons a {
+    margin-right: 5px;
+  }
+  .intence-icons a img {
+    width: 40px;
+  }
+  .quick-links ul li a {
+    font-size: 0.9rem;
+  }
+  .sub form input[type=email],
+  .sub form button {
+    width: 100%;
+    font-size: 1rem;
+  }
+>>>>>>> e9111d7 (properties achievment)
 }
