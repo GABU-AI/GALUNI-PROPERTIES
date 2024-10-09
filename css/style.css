@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -572,10 +573,29 @@ section .container5 {
 =======
 section1 .container5 {
 >>>>>>> bb9ca7e (returned the code)
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.aboutus {
+  padding: 50px 0 50px 0;
+}
+.aboutus .container5 {
+>>>>>>> faf3f9e (returned the code)
   display: flex;
   gap: 50px;
 }
-section1 .container5 .images {
+.aboutus .container5 .images {
   border-radius: 4px;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,11 +609,11 @@ section .container6 ul {
 =======
   box-shadow: -1px 0px 10px black;
 }
-section1 .container6 {
+.aboutus .container6 {
   text-align: center;
   display: flex;
 }
-section1 .container6 ul {
+.aboutus .container6 ul {
   list-style: none;
 }
 
@@ -614,6 +634,7 @@ section1 .container7 {
   margin: auto;
   align-items: center;
   gap: 16px;
+  margin-bottom: 10px;
 }
 section1 .container7 .content {
   justify-content: center;
