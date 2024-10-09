@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -568,11 +569,13 @@ footer .sub form button:hover {
   }
 =======
 section .container5 {
+=======
+section1 .container5 {
+>>>>>>> bb9ca7e (returned the code)
   display: flex;
   gap: 50px;
-  box-shadow: 50px;
 }
-section .container5 .images {
+section1 .container5 .images {
   border-radius: 4px;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,15 +589,20 @@ section .container6 ul {
 =======
   box-shadow: -1px 0px 10px black;
 }
-section .container6 {
+section1 .container6 {
   text-align: center;
   display: flex;
 }
-section .container6 ul {
+section1 .container6 ul {
   list-style: none;
 }
 
+<<<<<<< HEAD
 section {
   background-image: url("images/home page.jpg");
 >>>>>>> 76b032e (returned the code)
+=======
+section1 {
+  background-color: #F4f7fb;
+>>>>>>> bb9ca7e (returned the code)
 }

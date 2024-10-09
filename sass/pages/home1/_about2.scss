@@ -1,11 +1,10 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
 
-section {
+section1 {
   .container5 {
     display: flex;
     gap: 50px;
-    box-shadow: 50px;
     .images{
     border-radius: 4px;
     box-shadow: -1px 0px 10px black;
