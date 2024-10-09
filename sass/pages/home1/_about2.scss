@@ -2,27 +2,50 @@
 @use "../../utilities/variables" as *;
 
 .aboutus {
-    padding: 30px;
-  .container5 {
+  padding: 30px;
+  .container {
     display: flex;
-    gap: 50px;
-    .images{
-    border-radius: 4px;
-    box-shadow: -1px 0px 10px black;
-    
+    justify-content: center;
+    .container-content {
+      margin-left: 3em;
+      font-size: 1.5rem;
+      width: 40%;
+      line-height: 1.4rem;
     }
-  }
-  .container6{
-    text-align: center;
-    display: flex;
-    ul{
-        text-decoration: none;
-        li{
-        list-style: none;
+    .button {
+      padding: 1em 3em;
+      background-color: #2596be;
+      border: none;
+      color: white;
+      border-end-end-radius: 3em;
+      border-start-start-radius: 3em;
+      margin-top: 2em;
+    }
+      }
+      .btn6 {
+        padding: 1em 3em;
+        background-color: #2596be;
+        border: none;
+        color: white;
+        border-end-end-radius: 3em;
+        border-start-start-radius: 3em;
+      }
+      .content{
+        margin-top: 2em;
+      }
+      p{
+        margin-top: 2em;
+      }
+      .container8{
+        display: flex;
+        justify-content: center;
+      }
+      .history{
+        text-align: center;
+        margin-bottom: 2em;
+        .p{
+          text-align: center;
         }
-    }
-  }
-  .space{
-    padding-top: 30px;
-  }
+      }
+  
 }

@@ -1,27 +1,51 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
 
-section1{
-    .container7{
-        display: flex;
-  width: 1200px;
-  height: 300px;
-  margin: auto;
-  align-items: center;
-  gap: 16px;
-  margin-bottom:10px ;
-  
-
-    
-.content{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: -1px 0px 10px black;
-    background-color: #ddd;
+.property{
+.container10{
+ display: flex;  
+ justify-content: center; 
 }
-.space1{
-    padding-top: 30px;
-}
+.content10{
+    margin-left: 3em;
+    font-size: 1.5rem;
+    width: 40%;
+    line-height: 1.4rem;
+    .h3{
+        margin-top: 1em;
     }
+    .meta{
+        margin-top: 1em;
+    }
+    .jpg{
+        padding-top: 100px;
+    }
+}
+.container7{
+    display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2em;
+  .content{
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: -1px 0px 10px black;
+  }
+}
+ .test{
+    padding-top: 10px;
+    
+    
+ }
+ .price{
+    display: flex;
+         justify-content: center;
+         margin-bottom: 15px;
+         gap: 16px;
+         border-radius: 5em;
+
+ }
+
+
 }
