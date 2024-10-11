@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 @use "./variables" as *;
 * {
   margin: 0;
@@ -27,3 +29,31 @@ body {
 .content {
   display: flex;
 }
+=======
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+>>>>>>> b1f006e (created new files)
+}
+ul {
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+<<<<<<< HEAD
+
+
+
+
+>>>>>>> faf3f9e (returned the code)
+=======
+>>>>>>> b1f006e (created new files)
